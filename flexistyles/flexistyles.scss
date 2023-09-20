@@ -23,11 +23,20 @@
 @import "flexbox/flex-wrap";
 @import "flexbox/flex-grow";
 @import "flexbox/flex-shrink";
+@import "flexbox/flex-justify-content";
+@import "flexbox/flex-justify-items";
+@import "flexbox/flex-justify-self";
+@import "flexbox/flex-align-content";
+@import "flexbox/flex-align-items";
+@import "flexbox/flex-align-self";
 //Grid
 @import "grid/grid-template-columns";
 @import "grid/grid-column-start-end";
 @import "grid/grid-template-rows";
 @import "grid/grid-row-start-end";
+@import "grid/grid-auto-columns";
+@import "grid/grid-auto-flow";
+@import "grid/grid-auto-rows";
 //Effects
 @import "effects/opacity";
 //Interactivity

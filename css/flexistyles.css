@@ -4415,6 +4415,154 @@ object {
   flex-shrink: 0;
 }
 
+.justify-normal {
+  justify-content: normal;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-stretch {
+  justify-content: stretch;
+}
+
+.justify-items-start {
+  justify-items: start;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.justify-items-stretch {
+  justify-items: stretch;
+}
+
+.justify-self-auto {
+  justify-self: auto;
+}
+
+.justify-self-start {
+  justify-self: start;
+}
+
+.justify-self-end {
+  justify-self: end;
+}
+
+.justify-self-center {
+  justify-self: center;
+}
+
+.justify-self-stretch {
+  justify-self: stretch;
+}
+
+.content-normal {
+  align-content: normal;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.content-start {
+  align-content: flex-start;
+}
+
+.content-end {
+  align-content: flex-end;
+}
+
+.content-between {
+  align-content: space-between;
+}
+
+.content-around {
+  align-content: space-around;
+}
+
+.content-evenly {
+  align-content: space-evenly;
+}
+
+.content-baseline {
+  align-content: baseline;
+}
+
+.content-stretch {
+  align-content: stretch;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.self-auto {
+  align-self: auto;
+}
+
+.self-start {
+  align-self: flex-start;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
+.self-baseline {
+  align-self: baseline;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -4757,6 +4905,58 @@ object {
 
 .row-end-auto {
   grid-row-end: auto;
+}
+
+.auto-cols-auto {
+  grid-auto-columns: auto;
+}
+
+.auto-cols-min {
+  grid-auto-columns: min-content;
+}
+
+.auto-cols-max {
+  grid-auto-columns: max-content;
+}
+
+.auto-cols-fr {
+  grid-auto-columns: minmax(0, 1fr);
+}
+
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-flow-dense {
+  grid-auto-flow: dense;
+}
+
+.grid-flow-row-dense {
+  grid-auto-flow: row dense;
+}
+
+.grid-flow-col-dense {
+  grid-auto-flow: column dense;
+}
+
+.auto-rows-auto {
+  grid-auto-rows: auto;
+}
+
+.auto-rows-min {
+  grid-auto-rows: min-content;
+}
+
+.auto-rows-max {
+  grid-auto-rows: max-content;
+}
+
+.auto-rows-fr {
+  grid-auto-rows: minmax(0, 1fr);
 }
 
 .opacity-0 {
