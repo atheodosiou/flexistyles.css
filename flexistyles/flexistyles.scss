@@ -1,15 +1,38 @@
+//Base and Variables
 @import "variables";
 @import "base/base";
+//Spacing
 @import "spacing/spacing";
+//Sizing
 @import "sizing/sizing";
+//Layout
 @import "layout/display";
 @import "layout/position";
 @import "layout/overflow";
 @import "layout/z-index";
+@import "layout/box-sizing";
+@import "layout/floats";
+@import "layout/clear";
+@import "layout/top-right-bottom-left";
+@import "layout/visibility";
+//Flexbox
 @import "flexbox/flex";
 @import "flexbox/flex-direction";
 @import "flexbox/gap";
+@import "flexbox/flex-basis";
+@import "flexbox/flex-wrap";
+@import "flexbox/flex-grow";
+@import "flexbox/flex-shrink";
+//Grid
+@import "grid/grid-template-columns";
+@import "grid/grid-column-start-end";
+@import "grid/grid-template-rows";
+@import "grid/grid-row-start-end";
+//Effects
 @import "effects/opacity";
+//Interactivity
 @import "interactivity/cursor";
+//Accessibility
 @import "accessibility/screen-readers";
+//Animations
 @import "animations/animations";
