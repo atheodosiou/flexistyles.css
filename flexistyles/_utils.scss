@@ -1,0 +1,26 @@
+@use "sass:math";
+
+@mixin createClasses() {
+  // Generate utility classes
+  @each $property, $map in $utilities {
+    $prefix: map-get($map, "prefix");
+    $properties: map-get($map, "properties");
+    $values: map-get($map, "values");
+
+    @each $k, $v in $values {
+      @if ($k == "default") {
+        .#{$prefix}-#{$k} {
+          @each $property-name, $property-value in $properties {
+            #{$property-name}: $property-value;
+          }
+        }
+      } @else {
+        .#{$prefix}-#{$k} {
+          @each $property-name, $property-value in $properties {
+            #{$property-name}: $v;
+          }
+        }
+      }
+    }
+  }
+}

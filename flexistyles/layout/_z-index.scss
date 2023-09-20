@@ -1,0 +1,26 @@
+@import "utils";
+
+$utilities: (
+  "z-index": (
+    "prefix": "z",
+    "properties": (
+      "z-index": 0,
+    ),
+    "values": (
+      "auto": auto,
+      "0": 0,
+      "10": $base-z-index,
+      "20": $base-z-index * 2,
+      "30": $base-z-index * 3,
+      "40": $base-z-index * 4,
+      "50": $base-z-index * 5,
+      "60": $base-z-index * 6,
+      "70": $base-z-index * 7,
+      "80": $base-z-index * 8,
+      "90": $base-z-index * 9,
+      "100": $base-z-index * 10,
+    ),
+  ),
+);
+
+@include createClasses();
