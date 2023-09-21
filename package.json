@@ -1,9 +1,12 @@
 {
   "name": "flexistyles.css",
   "version": "0.0.2",
-  "description": "",
+  "description": "CSS utility classes inspired by Tailwind CSS.",
   "author": "Anastasios Theodosiou",
   "license": "ISC",
+  "repository": {
+    "url": "https://github.com/atheodosiou/flexistyles.css"
+  },
   "devDependencies": {
     "cssnano": "^6.0.1",
     "gulp": "^4.0.2",
