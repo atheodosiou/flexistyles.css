@@ -1,0 +1,163 @@
+@import "../utils";
+
+$utilities: (
+  "border-radius": (
+    "prefix": "rounded",
+    "properties": (
+      "border-radius": 0px,
+    ),
+    "values": (
+      "none": 0px,
+      "default": 0.25rem,
+      "sm": $base-border,
+      "md": $base-border * 3,
+      "lg": $base-border * 4,
+      "xl": $base-border * 6,
+      "2xl": $base-border * 8,
+      "3xl": $base-border * 12,
+      "full": 9999px,
+    ),
+  ),
+  "border-radius-top": (
+    "prefix": "rounded-t",
+    "properties": (
+      "border-top-left-radius": 0px,
+      "border-top-right-radius": 0px,
+    ),
+    "values": (
+      "none": 0px,
+      "default": 0.25rem,
+      "sm": $base-border,
+      "md": $base-border * 3,
+      "lg": $base-border * 4,
+      "xl": $base-border * 6,
+      "2xl": $base-border * 8,
+      "3xl": $base-border * 12,
+      "full": 9999px,
+    ),
+  ),
+  "border-radius-bottom": (
+    "prefix": "rounded-b",
+    "properties": (
+      "border-bottom-right-radius": 0px,
+      "border-bottom-left-radius": 0px,
+    ),
+    "values": (
+      "none": 0px,
+      "default": 0.25rem,
+      "sm": $base-border,
+      "md": $base-border * 3,
+      "lg": $base-border * 4,
+      "xl": $base-border * 6,
+      "2xl": $base-border * 8,
+      "3xl": $base-border * 12,
+      "full": 9999px,
+    ),
+  ),
+  "border-radius-left": (
+    "prefix": "rounded-l",
+    "properties": (
+      "border-top-left-radius": 0px,
+      "border-bottom-left-radius": 0px,
+    ),
+    "values": (
+      "none": 0px,
+      "default": 0.25rem,
+      "sm": $base-border,
+      "md": $base-border * 3,
+      "lg": $base-border * 4,
+      "xl": $base-border * 6,
+      "2xl": $base-border * 8,
+      "3xl": $base-border * 12,
+      "full": 9999px,
+    ),
+  ),
+  "border-radius-right": (
+    "prefix": "rounded-r",
+    "properties": (
+      "border-top-right-radius": 0px,
+      "border-bottom-right-radius": 0px,
+    ),
+    "values": (
+      "none": 0px,
+      "default": 0.25rem,
+      "sm": $base-border,
+      "md": $base-border * 3,
+      "lg": $base-border * 4,
+      "xl": $base-border * 6,
+      "2xl": $base-border * 8,
+      "3xl": $base-border * 12,
+      "full": 9999px,
+    ),
+  ),
+  "border-radius-top-right": (
+    "prefix": "rounded-tr",
+    "properties": (
+      "border-top-right-radius": 0px,
+    ),
+    "values": (
+      "none": 0px,
+      "default": 0.25rem,
+      "sm": $base-border,
+      "md": $base-border * 3,
+      "lg": $base-border * 4,
+      "xl": $base-border * 6,
+      "2xl": $base-border * 8,
+      "3xl": $base-border * 12,
+      "full": 9999px,
+    ),
+  ),
+  "border-radius-top-left": (
+    "prefix": "rounded-tl",
+    "properties": (
+      "border-top-left-radius": 0px,
+    ),
+    "values": (
+      "none": 0px,
+      "default": 0.25rem,
+      "sm": $base-border,
+      "md": $base-border * 3,
+      "lg": $base-border * 4,
+      "xl": $base-border * 6,
+      "2xl": $base-border * 8,
+      "3xl": $base-border * 12,
+      "full": 9999px,
+    ),
+  ),
+  "border-radius-bottom-left": (
+    "prefix": "rounded-bl",
+    "properties": (
+      "border-bottom-left-radius": 0px,
+    ),
+    "values": (
+      "none": 0px,
+      "default": 0.25rem,
+      "sm": $base-border,
+      "md": $base-border * 3,
+      "lg": $base-border * 4,
+      "xl": $base-border * 6,
+      "2xl": $base-border * 8,
+      "3xl": $base-border * 12,
+      "full": 9999px,
+    ),
+  ),
+  "border-radius-bottom-right": (
+    "prefix": "rounded-br",
+    "properties": (
+      "border-bottom-right-radius": 0px,
+    ),
+    "values": (
+      "none": 0px,
+      "default": 0.25rem,
+      "sm": $base-border,
+      "md": $base-border * 3,
+      "lg": $base-border * 4,
+      "xl": $base-border * 6,
+      "2xl": $base-border * 8,
+      "3xl": $base-border * 12,
+      "full": 9999px,
+    ),
+  ),
+);
+
+@include createClasses();

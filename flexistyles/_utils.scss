@@ -9,9 +9,9 @@
 
     @each $k, $v in $values {
       @if ($k == "default") {
-        .#{$prefix}-#{$k} {
+        .#{$prefix} {
           @each $property-name, $property-value in $properties {
-            #{$property-name}: $property-value;
+            #{$property-name}: $v;
           }
         }
       } @else {
