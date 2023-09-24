@@ -1,4 +1,7 @@
-# flexistyles.css
+# flexistyles.css 
+
+![jsDelivr](https://img.shields.io/badge/CDN-jsDelivr-blue)
+![npm](https://img.shields.io/npm/v/flexistyles.css)
 
 **Description:**
 
@@ -20,6 +23,41 @@ To start using `flexistyles.css` in your project, follow these simple steps:
    ```bash
    npm install flexistyles.css --save
    ```
+2. Add the following line inside the `<head>` section of your HTML document to include the FlexiStyles CSS:
+
+   ```html
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flexistyles.css@{version-number}/css/flexistyles.min.css">
+   ```
+   ```html
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flexistyles.css@{version-number}/css/flexistyles.css">
+   ```
+3. Alternative import for node_modules:
+
+   ```
+   @import "node_modules/flexistyles.css/css/flexistyles.min.css";
+   ```
+   ```
+   @import "node_modules/flexistyles.css/css/flexistyles.css";
+   ```
+4. Start using it:
+   
+   ```
+   <div class="flex flex-col gap-5 bg-blue-500 p-5">
+     <h1 class="m-0 font-semibold text-2xl text-white">flexistyles.css</h1>
+     <p class="m-0 text-gray-100 font-semibold">
+       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+       standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+       type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+       remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+       Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+       Lorem Ipsum
+     </p>
+   </div>
+   ```
+5. Documentation:
+
+Please refert to the official [Tailwin CSS](https://tailwindcss.com/) documentation for the moment. 
+Also mind that are not all classes supported yet.
 
 Get started with `flexistyles.css` today and accelerate your CSS development with the power of Tailwind-inspired utility classes.
 
