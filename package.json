@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "CSS utility classes inspired by Tailwind CSS.",
   "author": "Anastasios Theodosiou",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "url": "https://github.com/atheodosiou/flexistyles.css"
   },

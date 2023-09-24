@@ -5438,6 +5438,134 @@ object {
   animation: none;
 }
 
+.delay-0 {
+  transition-delay: 0s;
+}
+
+.delay-75 {
+  transition-delay: 75ms;
+}
+
+.delay-100 {
+  transition-delay: 100ms;
+}
+
+.delay-150 {
+  transition-delay: 150ms;
+}
+
+.delay-200 {
+  transition-delay: 200ms;
+}
+
+.delay-300 {
+  transition-delay: 300ms;
+}
+
+.delay-500 {
+  transition-delay: 500ms;
+}
+
+.delay-700 {
+  transition-delay: 700ms;
+}
+
+.delay-1000 {
+  transition-delay: 1000ms;
+}
+
+.transition-none {
+  transition-property: none;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-shadow {
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-linear {
+  transition-timing-function: linear;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.duration-0 {
+  transition-duration: 0s;
+}
+
+.duration-75 {
+  transition-duration: 75ms;
+}
+
+.duration-100 {
+  transition-duration: 100ms;
+}
+
+.duration-150 {
+  transition-duration: 150ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
 .bg-inherit {
   background-color: inherit;
 }
@@ -7150,6 +7278,852 @@ object {
 
 .break-keep {
   word-break: keep-all;
+}
+
+.align-baseline {
+  vertical-align: baseline;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.align-bottom {
+  vertical-align: bottom;
+}
+
+.align-text-top {
+  vertical-align: text-top;
+}
+
+.align-text-bottom {
+  vertical-align: text-bottom;
+}
+
+.align-sub {
+  vertical-align: sub;
+}
+
+.align-super {
+  vertical-align: super;
+}
+
+.decoration-solid {
+  text-decoration-style: solid;
+}
+
+.decoration-double {
+  text-decoration-style: double;
+}
+
+.decoration-dotted {
+  text-decoration-style: dotted;
+}
+
+.decoration-dashed {
+  text-decoration-style: dashed;
+}
+
+.decoration-wavy {
+  text-decoration-style: wavy;
+}
+
+.decoration-auto {
+  text-decoration-thickness: auto;
+}
+
+.decoration-from-font {
+  text-decoration-thickness: from-font;
+}
+
+.decoration-0 {
+  text-decoration-thickness: 0px;
+}
+
+.decoration-1 {
+  text-decoration-thickness: 1px;
+}
+
+.decoration-2 {
+  text-decoration-thickness: 2px;
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
+}
+
+.decoration-8 {
+  text-decoration-thickness: 8px;
+}
+
+.underline-offset-8 {
+  text-underline-offset: 8px;
+}
+
+.underline-offset-auto {
+  text-underline-offset: auto;
+}
+
+.underline-offset-0 {
+  text-underline-offset: 0px;
+}
+
+.underline-offset-1 {
+  text-underline-offset: 1px;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
+}
+
+.decoration-inherit {
+  text-decoration-color: inherit;
+}
+
+.decoration-current {
+  text-decoration-color: currentColor;
+}
+
+.decoration-transparent {
+  text-decoration-color: transparent;
+}
+
+/*White*/
+.decoration-white {
+  text-decoration-color: white;
+}
+
+/*Black*/
+.decoration-black {
+  text-decoration-color: black;
+}
+
+/*Red*/
+.decoration-red-50 {
+  text-decoration-color: #fef2f2;
+}
+
+.decoration-red-100 {
+  text-decoration-color: #fee2e2;
+}
+
+.decoration-red-200 {
+  text-decoration-color: #fecaca;
+}
+
+.decoration-red-300 {
+  text-decoration-color: #fca5a5;
+}
+
+.decoration-red-400 {
+  text-decoration-color: #f87171;
+}
+
+.decoration-red-500 {
+  text-decoration-color: #ef4444;
+}
+
+.decoration-red-600 {
+  text-decoration-color: #dc2626;
+}
+
+.decoration-red-700 {
+  text-decoration-color: #b91c1c;
+}
+
+.decoration-red-800 {
+  text-decoration-color: #991b1b;
+}
+
+.decoration-red-900 {
+  text-decoration-color: #7f1d1d;
+}
+
+.decoration-red-950 {
+  text-decoration-color: #681717;
+}
+
+/*Green*/
+.decoration-green-50 {
+  text-decoration-color: #e5ffe5;
+}
+
+.decoration-green-100 {
+  text-decoration-color: #c1ffc1;
+}
+
+.decoration-green-200 {
+  text-decoration-color: #9dff9d;
+}
+
+.decoration-green-300 {
+  text-decoration-color: #79ff79;
+}
+
+.decoration-green-400 {
+  text-decoration-color: #00ff00;
+}
+
+.decoration-green-500 {
+  text-decoration-color: #00e600;
+}
+
+.decoration-green-600 {
+  text-decoration-color: #00c200;
+}
+
+.decoration-green-700 {
+  text-decoration-color: #00a000;
+}
+
+.decoration-green-800 {
+  text-decoration-color: #008000;
+}
+
+.decoration-green-900 {
+  text-decoration-color: #006200;
+}
+
+.decoration-green-950 {
+  text-decoration-color: #004400;
+}
+
+/* Blue */
+.decoration-blue-50 {
+  text-decoration-color: #e5e5ff;
+}
+
+.decoration-blue-100 {
+  text-decoration-color: #c1c1ff;
+}
+
+.decoration-blue-200 {
+  text-decoration-color: #9d9dff;
+}
+
+.decoration-blue-300 {
+  text-decoration-color: #7979ff;
+}
+
+.decoration-blue-400 {
+  text-decoration-color: #0000ff;
+}
+
+.decoration-blue-500 {
+  text-decoration-color: #0000e6;
+}
+
+.decoration-blue-600 {
+  text-decoration-color: #0000c2;
+}
+
+.decoration-blue-700 {
+  text-decoration-color: #0000a0;
+}
+
+.decoration-blue-800 {
+  text-decoration-color: #000080;
+}
+
+.decoration-blue-900 {
+  text-decoration-color: #000062;
+}
+
+.decoration-blue-950 {
+  text-decoration-color: #000044;
+}
+
+/* Cyan */
+.decoration-cyan-50 {
+  text-decoration-color: #e5ffff;
+}
+
+.decoration-cyan-100 {
+  text-decoration-color: #c1ffff;
+}
+
+.decoration-cyan-200 {
+  text-decoration-color: #9dffff;
+}
+
+.decoration-cyan-300 {
+  text-decoration-color: #79ffff;
+}
+
+.decoration-cyan-400 {
+  text-decoration-color: #00ffff;
+}
+
+.decoration-cyan-500 {
+  text-decoration-color: #00e6e6;
+}
+
+.decoration-cyan-600 {
+  text-decoration-color: #00c2c2;
+}
+
+.decoration-cyan-700 {
+  text-decoration-color: #00a0a0;
+}
+
+.decoration-cyan-800 {
+  text-decoration-color: #008080;
+}
+
+.decoration-cyan-900 {
+  text-decoration-color: #006262;
+}
+
+.decoration-cyan-950 {
+  text-decoration-color: #004444;
+}
+
+/* Magenta */
+.decoration-magenta-50 {
+  text-decoration-color: #ffe5ff;
+}
+
+.decoration-magenta-100 {
+  text-decoration-color: #ffc1ff;
+}
+
+.decoration-magenta-200 {
+  text-decoration-color: #ff9dff;
+}
+
+.decoration-magenta-300 {
+  text-decoration-color: #ff79ff;
+}
+
+.decoration-magenta-400 {
+  text-decoration-color: #ff00ff;
+}
+
+.decoration-magenta-500 {
+  text-decoration-color: #e600e6;
+}
+
+.decoration-magenta-600 {
+  text-decoration-color: #c200c2;
+}
+
+.decoration-magenta-700 {
+  text-decoration-color: #a000a0;
+}
+
+.decoration-magenta-800 {
+  text-decoration-color: #800080;
+}
+
+.decoration-magenta-900 {
+  text-decoration-color: #620062;
+}
+
+.decoration-magenta-950 {
+  text-decoration-color: #440044;
+}
+
+/* Yellow */
+.decoration-yellow-50 {
+  text-decoration-color: #ffffe5;
+}
+
+.decoration-yellow-100 {
+  text-decoration-color: #ffffc1;
+}
+
+.decoration-yellow-200 {
+  text-decoration-color: #ffff9d;
+}
+
+.decoration-yellow-300 {
+  text-decoration-color: #ffff79;
+}
+
+.decoration-yellow-400 {
+  text-decoration-color: #ffff00;
+}
+
+.decoration-yellow-500 {
+  text-decoration-color: #e6e600;
+}
+
+.decoration-yellow-600 {
+  text-decoration-color: #c2c200;
+}
+
+.decoration-yellow-700 {
+  text-decoration-color: #a0a000;
+}
+
+.decoration-yellow-800 {
+  text-decoration-color: #808000;
+}
+
+.decoration-yellow-900 {
+  text-decoration-color: #626200;
+}
+
+.decoration-yellow-950 {
+  text-decoration-color: #444400;
+}
+
+/* Gray */
+.decoration-gray-50 {
+  text-decoration-color: #e5e5e5;
+}
+
+.decoration-gray-100 {
+  text-decoration-color: #c1c1c1;
+}
+
+.decoration-gray-200 {
+  text-decoration-color: #9d9d9d;
+}
+
+.decoration-gray-300 {
+  text-decoration-color: #797979;
+}
+
+.decoration-gray-400 {
+  text-decoration-color: #808080;
+}
+
+.decoration-gray-500 {
+  text-decoration-color: #666666;
+}
+
+.decoration-gray-600 {
+  text-decoration-color: #4c4c4c;
+}
+
+.decoration-gray-700 {
+  text-decoration-color: #333333;
+}
+
+.decoration-gray-800 {
+  text-decoration-color: #1a1a1a;
+}
+
+.decoration-gray-900 {
+  text-decoration-color: #000000;
+}
+
+.decoration-gray-950 {
+  text-decoration-color: #000000;
+}
+
+/* Maroon */
+.decoration-maroon-50 {
+  text-decoration-color: #ffe5e5;
+}
+
+.decoration-maroon-100 {
+  text-decoration-color: #ffc1c1;
+}
+
+.decoration-maroon-200 {
+  text-decoration-color: #ff9d9d;
+}
+
+.decoration-maroon-300 {
+  text-decoration-color: #ff7979;
+}
+
+.decoration-maroon-400 {
+  text-decoration-color: #ff0000;
+}
+
+.decoration-maroon-500 {
+  text-decoration-color: #e60000;
+}
+
+.decoration-maroon-600 {
+  text-decoration-color: #c20000;
+}
+
+.decoration-maroon-700 {
+  text-decoration-color: #a00000;
+}
+
+.decoration-maroon-800 {
+  text-decoration-color: #800000;
+}
+
+.decoration-maroon-900 {
+  text-decoration-color: #620000;
+}
+
+.decoration-maroon-950 {
+  text-decoration-color: #440000;
+}
+
+/* Olive */
+.decoration-olive-50 {
+  text-decoration-color: #ffffe5;
+}
+
+.decoration-olive-100 {
+  text-decoration-color: #ffffc1;
+}
+
+.decoration-olive-200 {
+  text-decoration-color: #ffff9d;
+}
+
+.decoration-olive-300 {
+  text-decoration-color: #ffff79;
+}
+
+.decoration-olive-400 {
+  text-decoration-color: #808000;
+}
+
+.decoration-olive-500 {
+  text-decoration-color: #666600;
+}
+
+.decoration-olive-600 {
+  text-decoration-color: #4c4c00;
+}
+
+.decoration-olive-700 {
+  text-decoration-color: #333300;
+}
+
+.decoration-olive-800 {
+  text-decoration-color: #1a1a00;
+}
+
+.decoration-olive-900 {
+  text-decoration-color: #000000;
+}
+
+.decoration-olive-950 {
+  text-decoration-color: #000000;
+}
+
+/* Navy */
+.decoration-navy-50 {
+  text-decoration-color: #e5e5ff;
+}
+
+.decoration-navy-100 {
+  text-decoration-color: #c1c1ff;
+}
+
+.decoration-navy-200 {
+  text-decoration-color: #9d9dff;
+}
+
+.decoration-navy-300 {
+  text-decoration-color: #7979ff;
+}
+
+.decoration-navy-400 {
+  text-decoration-color: #000080;
+}
+
+.decoration-navy-500 {
+  text-decoration-color: #000066;
+}
+
+.decoration-navy-600 {
+  text-decoration-color: #00004c;
+}
+
+.decoration-navy-700 {
+  text-decoration-color: #000033;
+}
+
+.decoration-navy-800 {
+  text-decoration-color: #00001a;
+}
+
+.decoration-navy-900 {
+  text-decoration-color: #000000;
+}
+
+.decoration-navy-950 {
+  text-decoration-color: #000000;
+}
+
+/* Purple */
+.decoration-purple-50 {
+  text-decoration-color: #ffe5ff;
+}
+
+.decoration-purple-100 {
+  text-decoration-color: #ffc1ff;
+}
+
+.decoration-purple-200 {
+  text-decoration-color: #ff9dff;
+}
+
+.decoration-purple-300 {
+  text-decoration-color: #ff79ff;
+}
+
+.decoration-purple-400 {
+  text-decoration-color: #800080;
+}
+
+.decoration-purple-500 {
+  text-decoration-color: #660066;
+}
+
+.decoration-purple-600 {
+  text-decoration-color: #4c004c;
+}
+
+.decoration-purple-700 {
+  text-decoration-color: #330033;
+}
+
+.decoration-purple-800 {
+  text-decoration-color: #1a001a;
+}
+
+.decoration-purple-900 {
+  text-decoration-color: #000000;
+}
+
+.decoration-purple-950 {
+  text-decoration-color: #000000;
+}
+
+/* Teal */
+.decoration-teal-50 {
+  text-decoration-color: #e5ffff;
+}
+
+.decoration-teal-100 {
+  text-decoration-color: #c1ffff;
+}
+
+.decoration-teal-200 {
+  text-decoration-color: #9dffff;
+}
+
+.decoration-teal-300 {
+  text-decoration-color: #79ffff;
+}
+
+.decoration-teal-400 {
+  text-decoration-color: #008080;
+}
+
+.decoration-teal-500 {
+  text-decoration-color: #006666;
+}
+
+.decoration-teal-600 {
+  text-decoration-color: #004c4c;
+}
+
+.decoration-teal-700 {
+  text-decoration-color: #003333;
+}
+
+.decoration-teal-800 {
+  text-decoration-color: #001a1a;
+}
+
+.decoration-teal-900 {
+  text-decoration-color: #000000;
+}
+
+.decoration-teal-950 {
+  text-decoration-color: #000000;
+}
+
+/* Orange */
+.decoration-orange-50 {
+  text-decoration-color: #fff5e6;
+}
+
+.decoration-orange-100 {
+  text-decoration-color: #ffe4c1;
+}
+
+.decoration-orange-200 {
+  text-decoration-color: #ffd19d;
+}
+
+.decoration-orange-300 {
+  text-decoration-color: #ffbd79;
+}
+
+.decoration-orange-400 {
+  text-decoration-color: #ffa500;
+}
+
+.decoration-orange-500 {
+  text-decoration-color: #e69400;
+}
+
+.decoration-orange-600 {
+  text-decoration-color: #c28300;
+}
+
+.decoration-orange-700 {
+  text-decoration-color: #a07200;
+}
+
+.decoration-orange-800 {
+  text-decoration-color: #806100;
+}
+
+.decoration-orange-900 {
+  text-decoration-color: #625000;
+}
+
+.decoration-orange-950 {
+  text-decoration-color: #444000;
+}
+
+/* Brown */
+.decoration-brown-50 {
+  text-decoration-color: #fff0e6;
+}
+
+.decoration-brown-100 {
+  text-decoration-color: #ffddc1;
+}
+
+.decoration-brown-200 {
+  text-decoration-color: #ffcaa0;
+}
+
+.decoration-brown-300 {
+  text-decoration-color: #ffb779;
+}
+
+.decoration-brown-400 {
+  text-decoration-color: #a52a2a;
+}
+
+.decoration-brown-500 {
+  text-decoration-color: #8b2323;
+}
+
+.decoration-brown-600 {
+  text-decoration-color: #741c1c;
+}
+
+.decoration-brown-700 {
+  text-decoration-color: #5d1515;
+}
+
+.decoration-brown-800 {
+  text-decoration-color: #470e0e;
+}
+
+.decoration-brown-900 {
+  text-decoration-color: #300808;
+}
+
+.decoration-brown-950 {
+  text-decoration-color: #1a0202;
+}
+
+/* Pink */
+.decoration-pink-50 {
+  text-decoration-color: #ffe5ec;
+}
+
+.decoration-pink-100 {
+  text-decoration-color: #ffc1d7;
+}
+
+.decoration-pink-200 {
+  text-decoration-color: #ff9dbe;
+}
+
+.decoration-pink-300 {
+  text-decoration-color: #ff79a8;
+}
+
+.decoration-pink-400 {
+  text-decoration-color: #ffc0cb;
+}
+
+.decoration-pink-500 {
+  text-decoration-color: #e6007e;
+}
+
+.decoration-pink-600 {
+  text-decoration-color: #c2006c;
+}
+
+.decoration-pink-700 {
+  text-decoration-color: #a0005a;
+}
+
+.decoration-pink-800 {
+  text-decoration-color: #800048;
+}
+
+.decoration-pink-900 {
+  text-decoration-color: #620036;
+}
+
+.decoration-pink-950 {
+  text-decoration-color: #440024;
+}
+
+/* Indigo */
+.decoration-indigo-50 {
+  text-decoration-color: #eae3ff;
+}
+
+.decoration-indigo-100 {
+  text-decoration-color: #d3c7ff;
+}
+
+.decoration-indigo-200 {
+  text-decoration-color: #bcabff;
+}
+
+.decoration-indigo-300 {
+  text-decoration-color: #a58fff;
+}
+
+.decoration-indigo-400 {
+  text-decoration-color: #4b0082;
+}
+
+.decoration-indigo-500 {
+  text-decoration-color: #410071;
+}
+
+.decoration-indigo-600 {
+  text-decoration-color: #380060;
+}
+
+.decoration-indigo-700 {
+  text-decoration-color: #2e004f;
+}
+
+.decoration-indigo-800 {
+  text-decoration-color: #25003e;
+}
+
+.decoration-indigo-900 {
+  text-decoration-color: #1c002d;
+}
+
+.decoration-indigo-950 {
+  text-decoration-color: #12001c;
 }
 
 .border-inherit {
@@ -9039,4 +10013,24 @@ object {
 
 .outline-indigo-950 {
   outline: #12001c;
+}
+
+.outline-offset-0 {
+  outline-offset: 0px;
+}
+
+.outline-offset-1 {
+  outline-offset: 1px;
+}
+
+.outline-offset-2 {
+  outline-offset: 2px;
+}
+
+.outline-offset-4 {
+  outline-offset: 4px;
+}
+
+.outline-offset-8 {
+  outline-offset: 8px;
 }

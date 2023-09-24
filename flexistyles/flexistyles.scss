@@ -50,6 +50,10 @@
 @import "accessibility/screen-readers";
 //Animations
 @import "animations/animations";
+@import "animations/transition-delay";
+@import "animations/transition-property";
+@import "animations/transition-timing-function";
+@import "animations/transition-timing";
 //Backgrounds
 @import "backgrounds/bg-colors";
 //Typography
@@ -64,9 +68,15 @@
 @import "typography/text-transform";
 @import "typography/white-space";
 @import "typography/word-break";
+@import "typography/vertical-align";
+@import "typography/text-decoration-style";
+@import "typography/text-decoration-thikness";
+@import "typography/text-underline-offset";
+@import "typography/text-decoration-color";
 //Borders
 @import "borders/border-colors";
 @import "borders/border-radius";
 @import "borders/border-style";
 @import "borders/outline";
 @import "borders/outline-colors";
+@import "borders/outline-offset";
