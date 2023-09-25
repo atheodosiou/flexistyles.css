@@ -18,12 +18,7 @@ A versatile Node package that provides a comprehensive set of CSS utility classe
 
 To start using `flexistyles.css` in your project, follow these simple steps:
 
-1. Install the package using npm:
-
-   ```bash
-   npm install flexistyles.css --save
-   ```
-2. Add the following line inside the `<head>` section of your HTML document to include the FlexiStyles CSS:
+1. Add the following line inside the `<head>` section of your HTML document to include the FlexiStyles CSS:
 
    ```html
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flexistyles.css@{version-number}/css/flexistyles.min.css">
@@ -31,7 +26,13 @@ To start using `flexistyles.css` in your project, follow these simple steps:
    ```html
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flexistyles.css@{version-number}/css/flexistyles.css">
    ```
-3. Alternative import for node_modules:
+2. Alternative usage: Install the package using npm:
+
+   ```bash
+   npm install flexistyles.css --save
+   ```
+   
+3. import the stylesheet for node_modules:
 
    ```
    @import "node_modules/flexistyles.css/css/flexistyles.min.css";
